@@ -1,0 +1,23 @@
+HTTP 1
+
+*HTTP is a top-level application protocol that exchanges information between a client computer and a local or remote web server.
+* client sends a text-based request to a server by calling a method like GET or POST.
+*This request uses the GET method, which asks for data from the host server listed after Host:. In response to this request website.
+*web server returns an HTML page to the requesting client, in addition to any images, stylesheets, or other resources called for in the HTML. 
+Note that not all of the resources are returned to the client in the first call for data.
+
+HTTP 2
+
+*HTTP/2 began as the SPDY protocol, developed primarily at Google with the intention of reducing web page 
+load latency by using techniques such as compression, multiplexing, and prioritization.
+*many browsers supported this standardization effort, including Chrome, Opera, Internet Explorer.
+*most significant features that distinguishes HTTP/1 and HTTP/2 is the binary framing layer.
+*In HTTP/2, the binary framing layer encodes requests/responses and cuts them up into smaller packets of 
+information, greatly increasing the flexibility of data transfer.
+*establishes a single connection object between the two machines.
+
+
+2.Write a blog about objects and its internal representation in Javascript?
+Obejcet is one of data type.Every object has some property associated with some value.building blocks for modern JavaScript.
+Number,String,boolean,null,undefined and symbol in the sense that these primitive data types all store a 
+single value each depending on other type.
